@@ -1,0 +1,65 @@
+.topbarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 20%;
+  background-color: #4267b2;
+  color: white;
+}
+.logo {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 20px;
+  flex: 2;
+  cursor: pointer;
+}
+.logo p {
+  color: white;
+}
+.searchbarContainer {
+  width: 30%;
+  flex: 4;
+}
+.searchbarWrapper {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid;
+  padding: 7px;
+  border-radius: 30px;
+  background-color: white;
+}
+.searchbarContainer input {
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  padding-left: 5px;
+}
+.topbarRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex: 4;
+}
+.notificationBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+.imageWrapper {
+  align-self: center;
+  cursor: pointer;
+}
+.authbarRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+    padding-right: 10%;
+    color: white;
+    font-size: 18px;
+}
+

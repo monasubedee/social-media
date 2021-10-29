@@ -1,0 +1,40 @@
+
+.messageWrapper{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+.myMessageWrapper{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+
+}
+.myMessage{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+    
+}
+.message{
+    background-color: whitesmoke;
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+}
+.inputButton{
+    margin-top: 100px
+}
+.inputButton input{
+    padding: 20px;
+    width: 80%;
+    font-size: 18px;
+    outline: none;
+   
+}
+.sendButton{
+   
+    margin-left: 10px;
+}

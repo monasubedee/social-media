@@ -1,0 +1,3 @@
+export const GET_CONVERSATIONS = "GET_CONVERSATIONS";
+export const GET_MESSAGES = "GET_MESSAGES";
+export const SAVE_MESSAGE = "SAVE_MESSAGE";

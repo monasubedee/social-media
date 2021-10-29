@@ -1,0 +1,54 @@
+
+.shareCard{
+    margin: 15px;
+}
+
+.shareWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.line{
+    margin-left: 20px;
+    margin-right: 30px;
+    border-top: 2px solid lightgrey;
+}
+
+.inputField{
+    outline: none;
+    border: none;
+    font-size: 18px;
+    align-self: center;
+    margin-bottom: 8px;
+}
+.utilitiesWrapper{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+}
+
+input[type="file"]{
+    display: none;
+}
+.fileUpload{
+    align-self: center;
+    cursor: pointer;
+}
+
+.textName{
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    padding-left: 5px;
+}
+.share{
+    margin-left: auto;
+    align-self:center;
+    margin-right: 30px;
+}
+.shareBtn{
+    background-color:green !important;
+    color: white !important;
+    text-transform: capitalize !important;
+}

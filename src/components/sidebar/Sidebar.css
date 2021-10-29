@@ -1,0 +1,29 @@
+.sidebarContainer {
+  flex: 2;
+  overflow: scroll;
+  cursor: pointer;
+}
+.sidebarWrapper {
+  padding-left: 8%;
+  padding-right: 5%;
+}
+.iconText {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.text {
+  padding-left: 15px;
+}
+.showMore {
+  padding: 10px;
+  background-color: #ccc;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+a {
+  color: black;
+}

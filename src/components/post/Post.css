@@ -1,0 +1,16 @@
+.postWrapper{
+    margin: 20px;
+}
+.cardHeader{
+    font-size: 17px;
+    
+}
+.postCard{
+    height: 100%;
+   
+}
+.postImage{
+   height: 100%;
+   padding: 15px;
+   width: auto;
+}
